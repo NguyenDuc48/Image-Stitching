@@ -1,0 +1,273 @@
+.header2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #d8d8d8;
+    background-image: url('./pic.png'); 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center;
+}
+
+.header-left {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    width: 70%;
+    border-right: 2px solid #000000; /* Vertical border between header-left and header-right */
+    padding-right: 10px; /* Optional: Add some space between the border and content */
+    position: relative;
+    height: calc(100vh - 80px);
+    margin-top: -2rem;
+}
+
+.header-right {
+    
+    width: 30%;
+    padding-left: 10px; /* Optional: Add some space between the border and content */  
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    height: calc(100vh - 70px)
+}    
+
+.button1 {
+    font-size: 2.3rem;
+    font-weight: 400;
+    color: #ffffff;
+    text-decoration: none;
+    margin-right: 1rem;
+    border: 2px solid black;
+    border-radius: 15px ;
+    margin-top: 2rem;
+    font-weight: 500;
+    padding: 15px 18px;
+    background: red;
+    cursor: pointer;
+}
+.button1:active {
+    transform: scale(0.95);
+    box-shadow: none;
+}
+  
+  /* Inner shadow effect */
+
+  .button1:hover {
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    transform: scale(1.05);
+  }
+  .button1:hover:before {
+    opacity: 1;
+  }
+
+.button2 {
+    font-size: 2.3rem;
+    font-weight: 400;
+    color: #ffffff;
+    text-decoration: none;
+    margin-right: 1rem;
+    border: 2px solid black;
+    border-radius: 15px;
+    margin-top: 2rem;
+    font-weight: 500;
+    padding: 15px 18px;
+    background: red;
+    cursor: pointer;
+}
+
+.button2:active {
+    transform: scale(0.95);
+    box-shadow: none;
+}
+  
+  /* Inner shadow effect */
+
+  .button2:hover {
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    transform: scale(1.05);
+  }
+  .button2:hover:before {
+    opacity: 1;
+  }
+
+
+.pic1 {
+    margin-top: 2px;
+    width: 15rem;
+    height: 15rem;
+}
+
+.header-left-bot {
+    margin-top: 2rem;
+}
+
+.images-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    flex: 1;
+    margin-left: 9rem;
+    /* Adjust the positioning properties */
+    position: relative;
+
+  }
+  
+  /* Style for each individual selected image */
+.pic {
+    width: 15rem;
+    height: 15rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}  
+
+.reset-button,.confirm-button,.cancel-button {
+    font-size: 2rem;
+    font-weight: 500;
+    color: red;
+    text-decoration: none;
+    margin-right: 1rem;
+    border: 5px solid forestgreen;
+    border-radius: 15px;
+    margin-top: 2rem;
+    font-weight: 500;
+    padding: 10px 13px;
+    background:#ffffff;
+    cursor: pointer;
+    width: 24.5rem;
+    margin-left: 1.5rem;
+    font-family:Arial, Helvetica, sans-serif
+}
+
+.reset-button:active {
+  transform: scale(0.95);
+  box-shadow: none;
+}
+
+/* Inner shadow effect */
+
+  .reset-button:hover {
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    transform: scale(1.05);
+  }
+  .reset-button:before {
+    opacity: 1;
+  }
+
+.reset-page-button {
+  font-size: 2rem;
+    font-weight: 500;
+    color: red;
+    text-decoration: none;
+    margin-right: 1rem;
+    border: 5px solid forestgreen;
+    border-radius: 15px;
+    margin-top: 2rem;
+    font-weight: 500;
+    padding: 10px 13px;
+    background:#ffffff;
+    cursor: pointer;
+    width: 16.5rem;
+    margin-left: 1.5rem;
+    font-family:Arial, Helvetica, sans-serif
+}
+
+.reset-image-button {
+  font-size: 2rem;
+    font-weight: 500;
+    color: red;
+    text-decoration: none;
+    margin-right: 1rem;
+    border: 5px solid forestgreen;
+    border-radius: 15px;
+    margin-top: 2rem;
+    font-weight: 500;
+    padding: 10px 13px;
+    background:#ffffff;
+    cursor: pointer;
+    width: 20.5rem;
+    margin-left: 1.5rem;
+    font-family:Arial, Helvetica, sans-serif
+}
+
+.DL-button {
+  font-size: 2rem;
+    font-weight: 500;
+    color: red;
+    text-decoration: none;
+    margin-right: 1rem;
+    border: 5px solid forestgreen;
+    border-radius: 15px;
+    margin-top: 2rem;
+    font-weight: 500;
+    padding: 10px 13px;
+    background:#ffffff;
+    cursor: pointer;
+    width: 12.5rem;
+    margin-left: 1.5rem;
+    font-family:Arial, Helvetica, sans-serif
+}
+
+.reset-page-button:active {
+  transform: scale(0.95);
+  box-shadow: none;
+}
+
+/* Inner shadow effect */
+
+  .reset-page-button:hover {
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    transform: scale(1.05);
+  }
+  .reset-page-button:before {
+    opacity: 1;
+  }
+
+.reset-image-button:active {
+    transform: scale(0.95);
+    box-shadow: none;
+  }
+  
+  /* Inner shadow effect */
+  
+  .reset-image-button:hover {
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+      transform: scale(1.05);
+  }
+  .reset-image-button:before {
+      opacity: 1;
+  }
+
+.DL-button:active {
+    transform: scale(0.95);
+    box-shadow: none;
+  }
+  
+  /* Inner shadow effect */
+  
+  .DL-button:hover {
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+      transform: scale(1.05);
+  }
+  .DL-button:before {
+      opacity: 1;
+  }
+
+.nums {
+  color: #000000;
+    font-size: 3rem;
+    font-weight: 900;
+    margin-bottom: 0.5rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+.cropper-image {
+
+    max-width: 30vw; /* Giới hạn chiều rộng tối đa của ảnh là 70% chiều rộng của cửa sổ hiển thị */
+    max-height: 40vh; /* Giới hạn chiều cao tối đa của ảnh là 80% chiều cao của cửa sổ hiển thị */
+    /* Các thuộc tính khác mà bạn muốn áp dụng cho ảnh */
+  }
+

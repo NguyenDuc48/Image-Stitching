@@ -1,0 +1,30 @@
+a {
+    font-size: 2rem;
+    font-weight: 300;
+    color: var(--full-dark);
+    text-decoration: none;
+    margin-right: 1rem;
+}
+
+a:hover {
+    color: crimson;
+}
+
+a.btn {
+    border: 2px solid white;
+    border-radius: 15px;
+    margin-top: 2rem;
+    font-weight: 500;
+    padding: 15px 18px;
+}
+
+a.btn-dark {
+    border: 2px solid var(--full-dark);
+    background: transparent;
+}
+
+a.btn-orange {
+    border: 2px solid transparent;
+    background: red;
+    color: white;
+}

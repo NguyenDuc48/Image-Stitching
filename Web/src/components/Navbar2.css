@@ -1,0 +1,26 @@
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* margin-top: -3rem; */
+    background-color: #000000;
+    height: 80px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.LG {
+    margin-top: -0.5rem;
+    margin-left: 0.2rem;
+}
+
+.logo-text {
+    font-size: 2.7rem;
+    font-weight: bold;
+    margin-left: 0.1rem;
+    color: white;
+}
+
+.logo-text span {
+    color: red;
+}
+
