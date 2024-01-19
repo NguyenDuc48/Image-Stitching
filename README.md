@@ -16,13 +16,6 @@ This project is designed to stitch images together using CUDA acceleration in C+
 - OpenCV
 
 ### Frontend (ReactJS)
-- Node.js 
-- npm 
 
-## Getting Started
 
-### Backend Setup
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/cuda-image-stitching.git
-   cd cuda-image-stitching
+
