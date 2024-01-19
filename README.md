@@ -11,13 +11,13 @@ This project is designed to stitch images together using CUDA acceleration in C+
 ## Prerequisites
 
 ### Backend (C++ with CUDA)
-- CUDA Toolkit (version X.X)
-- CMake (version X.X)
-- OpenCV (version X.X)
+- CUDA Toolkit
+- CMake 
+- OpenCV
 
 ### Frontend (ReactJS)
-- Node.js (version X.X)
-- npm (version X.X)
+- Node.js 
+- npm 
 
 ## Getting Started
 
